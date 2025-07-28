@@ -1,129 +1,71 @@
 
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Corrente do Bem - Hub de Solidariedade</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabinete Paralelo - Ações Solidárias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        section {
+            padding: 2em;
+        }
+        .card {
+            background-color: white;
+            padding: 1.5em;
+            margin-bottom: 1em;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .button {
+            display: inline-block;
+            padding: 0.5em 1em;
+            background-color: #0077cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
-  <!-- Header -->
-  <header class="bg-yellow-400 p-6 shadow-md">
-    <div class="max-w-6xl mx-auto flex justify-between items-center">
-      <h1 class="text-3xl font-bold text-white">Corrente do Bem</h1>
-      <nav class="space-x-4">
-        <a href="#acoes" class="text-white hover:underline">Ações</a>
-        <a href="#como-participar" class="text-white hover:underline">Como Participar</a>
-        <a href="#impacto" class="text-white hover:underline">Impacto</a>
-        <a href="#contato" class="text-white hover:underline">Contato</a>
-      </nav>
-    </div>
-  </header>
+<body>
+    <header>
+        <h1>Gabinete Paralelo</h1>
+        <p>Conectando solidariedade e ação</p>
+    </header>
 
-  <!-- Introdução -->
-  <section class="bg-white py-16">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-4xl font-bold mb-4">Um lugar para conectar solidariedade e ação</h2>
-      <p class="text-lg text-gray-600">Somos um hub social que reúne diversas iniciativas de apoio a quem mais precisa. Junte-se a nós para transformar realidades com gestos simples.</p>
-    </div>
-  </section>
+    <section>
+        <h2>Ação ativa</h2>
+        <div class="card">
+            <h3>Campanha de Doação de Agasalhos</h3>
+            <p>Estamos arrecadando agasalhos para distribuir às pessoas em situação de rua de Belo Horizonte. Vamos até você buscar!</p>
+            <a href="agasalhos.html" class="button">Conheça mais aqui</a>
+        </div>
 
-  <!-- Ações -->
-  <section id="acoes" class="py-12 bg-gray-100">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-10">Ações Ativas</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Cards de ações -->
-        <div class="bg-white p-6 rounded-xl shadow-md">
-          <h3 class="text-xl font-semibold mb-2">Doação de Agasalhos</h3>
-          <p>Recolha roupas de frio e aqueça famílias neste inverno.</p>
+        <h2>Demais ações</h2>
+        <div class="card">
+            <p>Nosso projeto abrange também campanhas de Natal e Páscoa, distribuição de livros e roupas, ações como “Adote um vovô”, sopão comunitário, e muito mais.</p>
         </div>
-        <div class="bg-white p-6 rounded-xl shadow-md">
-          <h3 class="text-xl font-semibold mb-2">Cartinhas de Natal</h3>
-          <p>Adote uma cartinha e leve alegria a uma criança neste fim de ano.</p>
-        </div>
-        <div class="bg-white p-6 rounded-xl shadow-md">
-          <h3 class="text-xl font-semibold mb-2">Ovos de Páscoa Solidários</h3>
-          <p>Ajude a distribuir sorrisos e chocolate para crianças carentes.</p>
-        </div>
-        <div class="bg-white p-6 rounded-xl shadow-md">
-          <h3 class="text-xl font-semibold mb-2">Corrente do Bem</h3>
-          <p>Faça o bem e indique mais 3 pessoas para fazerem também!</p>
-        </div>
-        <div class="bg-white p-6 rounded-xl shadow-md">
-          <h3 class="text-xl font-semibold mb-2">Vaquinhas Verificadas</h3>
-          <p>Ajude causas reais com contribuições seguras e rastreáveis.</p>
-        </div>
-        <div class="bg-white p-6 rounded-xl shadow-md">
-          <h3 class="text-xl font-semibold mb-2">Doação de Livros</h3>
-          <p>Recolhemos livros e os levamos para bibliotecas comunitárias.</p>
-        </div>
-        <div class="bg-white p-6 rounded-xl shadow-md">
-          <h3 class="text-xl font-semibold mb-2">Adote um Vovô</h3>
-          <p>Crie laços de carinho com idosos que vivem em lares ou abrigos.</p>
-        </div>
-        <div class="bg-white p-6 rounded-xl shadow-md">
-          <h3 class="text-xl font-semibold mb-2">Sopão Comunitário</h3>
-          <p>Ajude a cozinhar ou distribuir refeições em mutirões solidários.</p>
-        </div>
-        <div class="bg-white p-6 rounded-xl shadow-md">
-          <h3 class="text-xl font-semibold mb-2">Cartinhas de Aniversário</h3>
-          <p>Envie carinho e um presente para aniversariantes esquecidos.</p>
-        </div>
-        <div class="bg-white p-6 rounded-xl shadow-md">
-          <h3 class="text-xl font-semibold mb-2">Oficinas Criativas</h3>
-          <p>Ensine, compartilhe saberes e inspire talentos em oficinas sociais.</p>
-        </div>
-        <div class="bg-white p-6 rounded-xl shadow-md">
-          <h3 class="text-xl font-semibold mb-2">Mutirão de Serviços</h3>
-          <p>Doe seu tempo como profissional voluntário: saúde, beleza, direito, etc.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Como Participar -->
-  <section id="como-participar" class="py-16 bg-white">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-6">Como Participar</h2>
-      <p class="mb-4">Você pode contribuir de muitas formas:</p>
-      <ul class="list-disc list-inside text-left max-w-md mx-auto text-gray-700">
-        <li>Doando roupas, livros ou alimentos</li>
-        <li>Adotando uma cartinha</li>
-        <li>Se cadastrando como voluntário</li>
-        <li>Indicando beneficiários legítimos</li>
-        <li>Divulgando nosso site para mais pessoas</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Impacto -->
-  <section id="impacto" class="bg-gray-100 py-16">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-6">Nosso Impacto</h2>
-      <p class="mb-6">Juntos já ajudamos centenas de famílias, distribuímos milhares de roupas, livros e refeições, e criamos conexões de carinho que mudam vidas.</p>
-      <p class="italic text-yellow-600">Toda ação conta. Toda ajuda transforma.</p>
-    </div>
-  </section>
-
-  <!-- Contato -->
-  <section id="contato" class="py-16 bg-white">
-    <div class="max-w-xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-4">Fale Conosco</h2>
-      <p class="mb-4">Quer sugerir uma ação, tirar dúvidas ou ser nosso parceiro? Envie uma mensagem:</p>
-      <form class="space-y-4 text-left">
-        <input type="text" placeholder="Nome" class="w-full p-3 border rounded-md">
-        <input type="email" placeholder="Email" class="w-full p-3 border rounded-md">
-        <textarea placeholder="Mensagem" class="w-full p-3 border rounded-md"></textarea>
-        <button type="submit" class="bg-yellow-400 text-white px-6 py-2 rounded-md hover:bg-yellow-500">Enviar</button>
-      </form>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-gray-800 text-white text-center p-6">
-    <p>© 2025 Corrente do Bem. Todos os direitos reservados.</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 Gabinete Paralelo</p>
+    </footer>
 </body>
 </html>
