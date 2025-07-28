@@ -1,71 +1,117 @@
 
 <!DOCTYPE html>
-<html lang="pt-BR">
+
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabinete Paralelo - Ações Solidárias</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f2f2f2;
-        }
-        header {
-            background-color: #003366;
-            color: white;
-            padding: 1em;
-            text-align: center;
-        }
-        section {
-            padding: 2em;
-        }
-        .card {
-            background-color: white;
-            padding: 1.5em;
-            margin-bottom: 1em;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .button {
-            display: inline-block;
-            padding: 0.5em 1em;
-            background-color: #0077cc;
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-        }
-        footer {
-            background-color: #003366;
-            color: white;
-            text-align: center;
-            padding: 1em;
-        }
-    </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Corrente do Bem - Hub de Solidariedade</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
 </head>
-<body>
-    <header>
-        <h1>Gabinete Paralelo</h1>
-        <p>Conectando solidariedade e ação</p>
-    </header>
-
-    <section>
-        <h2>Ação ativa</h2>
-        <div class="card">
-            <h3>Campanha de Doação de Agasalhos</h3>
-            <p>Estamos arrecadando agasalhos para distribuir às pessoas em situação de rua de Belo Horizonte. Vamos até você buscar!</p>
-            <a href="agasalhos.html" class="button">Conheça mais aqui</a>
-        </div>
-
-        <h2>Demais ações</h2>
-        <div class="card">
-            <p>Nosso projeto abrange também campanhas de Natal e Páscoa, distribuição de livros e roupas, ações como “Adote um vovô”, sopão comunitário, e muito mais.</p>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Gabinete Paralelo</p>
-    </footer>
+<body class="bg-gray-50 text-gray-800">
+<!-- Header -->
+<header class="bg-yellow-400 p-6 shadow-md">
+<div class="max-w-6xl mx-auto flex justify-between items-center">
+<img alt="Logo Corrente do Bem" class="h-12 w-12 rounded-full bg-white p-1 mr-3" src="logo.png"/><h1 class="text-3xl font-bold text-white">Corrente do Bem</h1>
+<nav class="space-x-4">
+<a class="text-white hover:underline" href="#acoes">Ações</a>
+<a class="text-white hover:underline" href="#como-participar">Como Participar</a>
+<a class="text-white hover:underline" href="#impacto">Impacto</a>
+<a class="text-white hover:underline" href="#contato">Contato</a>
+</nav>
+</div>
+</header>
+<!-- Introdução -->
+<section class="bg-white py-16">
+<div class="max-w-4xl mx-auto text-center">
+<h2 class="text-4xl font-bold mb-4">Um lugar para conectar solidariedade e ação</h2>
+<p class="text-lg text-gray-600">Somos um hub social que reúne diversas iniciativas de apoio a quem mais precisa. Junte-se a nós para transformar realidades com gestos simples.</p>
+</div>
+</section>
+<!-- Ações -->
+<section class="py-12 bg-gray-100" id="acoes">
+<div class="max-w-6xl mx-auto px-4">
+<h2 class="text-3xl font-bold text-center mb-10">Ações Ativas</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"><a class="block hover:shadow-lg transition" href="campanha-agasalhos.html"><div class="bg-white p-6 rounded-xl shadow-md">
+<h3 class="text-xl font-semibold mb-2">Doação de Agasalhos</h3>
+<p>Recolha roupas de frio e aqueça famílias neste inverno.</p>
+</div></a></div>
+</div>
+</section>
+<section class="py-12 bg-gray-50" id="demais-campanhas">
+<div class="max-w-6xl mx-auto px-4">
+<h2 class="text-3xl font-bold text-center mb-10">Demais Campanhas</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-white p-6 rounded-xl shadow-md"><img class="w-full h-40 object-cover rounded-md mb-3" src="https://images.unsplash.com/photo-1608889175117-0f34c92eec1c"/>
+<h3 class="text-xl font-semibold mb-2">Cartinhas de Natal</h3>
+<p>Adote uma cartinha e leve alegria a uma criança neste fim de ano.</p>
+</div><div class="bg-white p-6 rounded-xl shadow-md"><img class="w-full h-40 object-cover rounded-md mb-3" src="https://images.unsplash.com/photo-1618252181158-f8b8d8fcf738"/>
+<h3 class="text-xl font-semibold mb-2">Ovos de Páscoa Solidários</h3>
+<p>Ajude a distribuir sorrisos e chocolate para crianças carentes.</p>
+</div><div class="bg-white p-6 rounded-xl shadow-md"><img class="w-full h-40 object-cover rounded-md mb-3" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e"/>
+<h3 class="text-xl font-semibold mb-2">Corrente do Bem</h3>
+<p>Faça o bem e indique mais 3 pessoas para fazerem também!</p>
+</div><div class="bg-white p-6 rounded-xl shadow-md"><img class="w-full h-40 object-cover rounded-md mb-3" src="https://images.unsplash.com/photo-1556742031-c6961e8560b0"/>
+<h3 class="text-xl font-semibold mb-2">Vaquinhas Verificadas</h3>
+<p>Ajude causas reais com contribuições seguras e rastreáveis.</p>
+</div><div class="bg-white p-6 rounded-xl shadow-md"><img class="w-full h-40 object-cover rounded-md mb-3" src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da"/>
+<h3 class="text-xl font-semibold mb-2">Doação de Livros</h3>
+<p>Recolhemos livros e os levamos para bibliotecas comunitárias.</p>
+</div><div class="bg-white p-6 rounded-xl shadow-md"><img class="w-full h-40 object-cover rounded-md mb-3" src="https://images.unsplash.com/photo-1605391281241-33b361b8e7e7"/>
+<h3 class="text-xl font-semibold mb-2">Adote um Vovô</h3>
+<p>Crie laços de carinho com idosos que vivem em lares ou abrigos.</p>
+</div><div class="bg-white p-6 rounded-xl shadow-md"><img class="w-full h-40 object-cover rounded-md mb-3" src="https://images.unsplash.com/photo-1625944242637-96e7d4e8e1d7"/>
+<h3 class="text-xl font-semibold mb-2">Sopão Comunitário</h3>
+<p>Ajude a cozinhar ou distribuir refeições em mutirões solidários.</p>
+</div><div class="bg-white p-6 rounded-xl shadow-md"><img class="w-full h-40 object-cover rounded-md mb-3" src="https://images.unsplash.com/photo-1608032077018-0e2284ec894b"/>
+<h3 class="text-xl font-semibold mb-2">Cartinhas de Aniversário</h3>
+<p>Envie carinho e um presente para aniversariantes esquecidos.</p>
+</div><div class="bg-white p-6 rounded-xl shadow-md"><img class="w-full h-40 object-cover rounded-md mb-3" src="https://images.unsplash.com/photo-1581090700227-1e8d92d1f62b"/>
+<h3 class="text-xl font-semibold mb-2">Oficinas Criativas</h3>
+<p>Ensine, compartilhe saberes e inspire talentos em oficinas sociais.</p>
+</div><div class="bg-white p-6 rounded-xl shadow-md"><img class="w-full h-40 object-cover rounded-md mb-3" src="https://images.unsplash.com/photo-1588776814546-ec7e4c5b5fdc"/>
+<h3 class="text-xl font-semibold mb-2">Mutirão de Serviços</h3>
+<p>Doe seu tempo como profissional voluntário: saúde, beleza, direito, etc.</p>
+</div></div>
+</div>
+</section>
+<!-- Como Participar -->
+<section class="py-16 bg-white" id="como-participar">
+<div class="max-w-4xl mx-auto text-center">
+<h2 class="text-3xl font-bold mb-6">Como Participar</h2>
+<p class="mb-4">Você pode contribuir de muitas formas:</p>
+<ul class="list-disc list-inside text-left max-w-md mx-auto text-gray-700">
+<li>Doando roupas, livros ou alimentos</li>
+<li>Adotando uma cartinha</li>
+<li>Se cadastrando como voluntário</li>
+<li>Indicando beneficiários legítimos</li>
+<li>Divulgando nosso site para mais pessoas</li>
+</ul>
+</div>
+</section>
+<!-- Impacto -->
+<section class="bg-gray-100 py-16" id="impacto">
+<div class="max-w-4xl mx-auto text-center">
+<h2 class="text-3xl font-bold mb-6">Nosso Impacto</h2>
+<p class="mb-6">Juntos já ajudamos centenas de famílias, distribuímos milhares de roupas, livros e refeições, e criamos conexões de carinho que mudam vidas.</p>
+<p class="italic text-yellow-600">Toda ação conta. Toda ajuda transforma.</p>
+</div>
+</section>
+<!-- Contato -->
+<section class="py-16 bg-white" id="contato">
+<section class="py-16 bg-white" id="contato">
+<div class="max-w-xl mx-auto text-center">
+<h2 class="text-3xl font-bold mb-4">Fale Conosco</h2>
+<p class="mb-4">Quer sugerir uma ação, tirar dúvidas ou ser nosso parceiro?</p>
+<p class="mb-2">📧 <strong>Email:</strong> <a class="text-yellow-600 hover:underline" href="mailto:gabineteparalelo2019@gmail.com">gabineteparalelo2019@gmail.com</a></p>
+<p class="mb-6">📱 <strong>WhatsApp:</strong> <a class="text-green-600 hover:underline" href="https://wa.me/5531991065050" target="_blank">Clique aqui para conversar</a></p>
+<a class="inline-block mt-4 bg-green-500 text-white px-6 py-3 rounded-lg shadow hover:bg-green-600 transition" href="https://wa.me/5531991065050" target="_blank">Falar no WhatsApp</a>
+</div>
+</section>
+</section>
+<!-- Footer -->
+<footer class="bg-gray-800 text-white text-center p-6">
+<p>© 2025 Corrente do Bem. Todos os direitos reservados.</p>
+</footer>
 </body>
 </html>
